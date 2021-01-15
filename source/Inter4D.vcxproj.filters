@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DirectX">
+      <UniqueIdentifier>{1a429fd4-f723-4a84-934e-acde126450af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX">
+      <UniqueIdentifier>{b513d6dd-44f8-4e6b-a319-6fdb6b12e1a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathModel">
+      <UniqueIdentifier>{987e42e1-72b8-4e32-b9bc-2e6b0020368e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathModel">
+      <UniqueIdentifier>{fd4aaff5-c68c-4907-9bd3-f0ed94080efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathModel\2D">
+      <UniqueIdentifier>{fde8c045-f3cf-4f57-b289-d061d0e0b120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathModel\3D">
+      <UniqueIdentifier>{5ae797f4-0bde-4e9f-9868-1bd4d6a120c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathModel\4D">
+      <UniqueIdentifier>{eb560afa-519f-4b17-bae2-5881a1adcf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MathModel\Numeric">
+      <UniqueIdentifier>{03deb25e-4fba-497e-946e-8f87063dac8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathModel\2D">
+      <UniqueIdentifier>{37785bb5-d28f-42af-a118-9a1d1a003215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathModel\3D">
+      <UniqueIdentifier>{9d420129-936b-4412-a009-223539f8e200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathModel\4D">
+      <UniqueIdentifier>{30742edc-a872-4e67-9274-473e0ecbc4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MathModel\Numeric">
+      <UniqueIdentifier>{1e6dfe25-7ad0-494e-a982-fadb03ab04a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e84c236e-fb8c-4122-99d5-d0b3bf66ba1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="directx_system.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="models.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="directx_base.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="math_engine.cpp">
+      <Filter>Source Files\MathModel</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point2D.h">
+      <Filter>Header Files\MathModel\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="half_plane2D.cpp">
+      <Filter>Source Files\MathModel\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="line2D.cpp">
+      <Filter>Source Files\MathModel\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="point2D.cpp">
+      <Filter>Source Files\MathModel\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="shape2D.cpp">
+      <Filter>Source Files\MathModel\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>Source Files\MathModel\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="half_plane3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="half_space3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="line3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="point3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="segment3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="shape3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="vector3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="half_hyperspace4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="point4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="shape4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="space4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="vector4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="plane3D.cpp">
+      <Filter>Source Files\MathModel\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="integer.cpp">
+      <Filter>Source Files\MathModel\Numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="rational_number.cpp">
+      <Filter>Source Files\MathModel\Numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="real_number.cpp">
+      <Filter>Source Files\MathModel\Numeric</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene4D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="line4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_master.h">
+      <Filter>Header Files\MathModel</Filter>
+    </ClCompile>
+    <ClCompile Include="algebra_master.cpp">
+      <Filter>Source Files\MathModel</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry_master.cpp">
+      <Filter>Source Files\MathModel</Filter>
+    </ClCompile>
+    <ClCompile Include="segment4D.cpp">
+      <Filter>Source Files\MathModel\4D</Filter>
+    </ClCompile>
+    <ClCompile Include="old_math_engine.cpp">
+      <Filter>Source Files\MathModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_system.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="models.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="directx_base.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math_engine.h">
+      <Filter>Header Files\MathModel</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry_base.h">
+      <Filter>Header Files\MathModel</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="half_plane2D.h">
+      <Filter>Header Files\MathModel\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="line2D.h">
+      <Filter>Header Files\MathModel\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="shape2D.h">
+      <Filter>Header Files\MathModel\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.h">
+      <Filter>Header Files\MathModel\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="half_plane3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="half_space3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="line3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="plane3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="point3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="segment3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="shape3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3D.h">
+      <Filter>Header Files\MathModel\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="half_hyperspace4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="point4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="shape4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="space4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="vector4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="integer.h">
+      <Filter>Header Files\MathModel\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="rational_number.h">
+      <Filter>Header Files\MathModel\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="real_number.h">
+      <Filter>Header Files\MathModel\Numeric</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene4D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="algebra_master.h">
+      <Filter>Header Files\MathModel</Filter>
+    </ClInclude>
+    <ClInclude Include="segment4D.h">
+      <Filter>Header Files\MathModel\4D</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.shader">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="normal_pixel.shader">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="uniform_pixel.shader">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Inter4D.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
